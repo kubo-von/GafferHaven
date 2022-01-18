@@ -1,3 +1,4 @@
+![Screenshot](assets/preview.gif)
 # GafferHaven
 Plugin for [Gaffer](https://www.gafferhq.org/) providing direct acess to asset from [PolyHaven.com](https://polyhaven.com/).  
 Only HDRIs are supported at the moment, in Cycles and Arnold lights.  
@@ -15,7 +16,7 @@ User must have right to write to HAVENLIBRARY path
 
 ## Usage
 
-Go to Cycles **BackgroundLight** or Arnold's **SkydomeLight** and hit **browse HDRIs** button.  
+Go to Cycles **BackgroundLight** or Arnold's **Image** and hit **browse HDRIs** button.  
 Download and use the HDRI by clicking on the button with desired resolution.  
 Green icon means the file for that resolution is already downloaded.
 > Note that when you go to the **Web** tab for the first time it might take couple of minutes to cache the thumbnails from the web.
