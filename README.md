@@ -28,3 +28,5 @@ Green icon means the file for that resolution is already downloaded.
  - solve SSL certificate issue -> get rid of the variable
  - better code overall
 
+## Support Polyhaven.com
+[https://www.patreon.com/polyhaven/overview](https://www.patreon.com/polyhaven/overview)
