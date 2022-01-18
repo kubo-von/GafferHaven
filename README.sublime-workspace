@@ -1,0 +1,512 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pi",
+				"picked_lobe_id"
+			],
+			[
+				"lob",
+				"lobe_throughputs"
+			],
+			[
+				"se",
+				"self"
+			],
+			[
+				"e",
+				"eval"
+			],
+			[
+				"fast_",
+				"fast_weighted_random"
+			],
+			[
+				"Vec",
+				"Vec4"
+			],
+			[
+				"indi",
+				"indirect_ray_pdf"
+			],
+			[
+				"pri",
+				"println!"
+			],
+			[
+				"re",
+				"reflectance"
+			],
+			[
+				"Ve",
+				"Vec3"
+			],
+			[
+				"ome",
+				"omega_o"
+			],
+			[
+				"lobe",
+				"lobe_dirs_pdfs"
+			],
+			[
+				"prin",
+				"println!"
+			],
+			[
+				"ref",
+				"reflect"
+			],
+			[
+				"co",
+				"cookTorrance"
+			],
+			[
+				"fr",
+				"Fresnel"
+			],
+			[
+				"V",
+				"Vec4"
+			],
+			[
+				"print",
+				"println!"
+			],
+			[
+				"lo",
+				"lobe_throughputs"
+			],
+			[
+				"ite",
+				"iter_mut"
+			],
+			[
+				"gg",
+				"ggx_fresnel"
+			],
+			[
+				"omega",
+				"omega_o"
+			],
+			[
+				"direct_",
+				"direct_light"
+			],
+			[
+				"lam",
+				"lamber_pdf"
+			],
+			[
+				"fre",
+				"fresnel"
+			],
+			[
+				"spe",
+				"specular_weight"
+			],
+			[
+				"spec",
+				"specular_weight"
+			],
+			[
+				"vec",
+				"vec3"
+			],
+			[
+				"dire",
+				"direct_ray_radiance"
+			],
+			[
+				"di",
+				"direct_ray_dir"
+			],
+			[
+				"set",
+				"setVec3Attr"
+			],
+			[
+				"unfi",
+				"uniform_sample_sphere"
+			],
+			[
+				"sam",
+				"sample_offset"
+			],
+			[
+				"uni",
+				"uniform_sample_hemisphere"
+			],
+			[
+				"m",
+				"max_element"
+			],
+			[
+				"s",
+				"size"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"pow",
+				"powi"
+			],
+			[
+				"max",
+				"max_element"
+			],
+			[
+				"ico",
+				"ico_pdf"
+			],
+			[
+				"po",
+				"power_heuristic"
+			],
+			[
+				"us",
+				"usize"
+			],
+			[
+				"direc",
+				"direct_ray_dir"
+			],
+			[
+				"i",
+				"icosphere"
+			],
+			[
+				"de",
+				"depth_atm"
+			],
+			[
+				"light",
+				"light_type"
+			],
+			[
+				"li",
+				"light_type"
+			],
+			[
+				"to",
+				"to_string"
+			],
+			[
+				"get",
+				"getStringAttr"
+			],
+			[
+				"ligh",
+				"light_data"
+			],
+			[
+				"surfac",
+				"surface_shader_path"
+			],
+			[
+				"mat",
+				"material_path"
+			],
+			[
+				"sc",
+				"scene_data"
+			],
+			[
+				"Hash",
+				"HashMap"
+			],
+			[
+				"Has",
+				"HashMap"
+			],
+			[
+				"mesh",
+				"mesh_node"
+			],
+			[
+				"MO",
+				"mo_node"
+			],
+			[
+				"u",
+				"usize"
+			],
+			[
+				"d",
+				"diffuse_weight"
+			],
+			[
+				"VEc",
+				"Vec4"
+			],
+			[
+				"p",
+				"pi"
+			],
+			[
+				"ray",
+				"ray_pdf"
+			],
+			[
+				"ray_",
+				"ray_distance"
+			],
+			[
+				"sel",
+				"selected_light"
+			],
+			[
+				"unw",
+				"unwrap_or"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ter",
+				"Terminal (panel)"
+			],
+			[
+				"confi",
+				"Rust: Configure Cargo Build"
+			],
+			[
+				"rust en",
+				"Preferences: Rust Enhanced Settings"
+			],
+			[
+				"rust e",
+				"Preferences: Rust Enhanced Settings"
+			],
+			[
+				"LSP",
+				"LSP: Disable Language Server in Project"
+			],
+			[
+				"terminu",
+				"Preferences: Terminus Command Palette"
+			],
+			[
+				"terminus",
+				"Terminus: List Shells"
+			],
+			[
+				"terminus the",
+				"Terminus Utilities: Select Theme"
+			],
+			[
+				"termin",
+				"Terminus Utilities: Generate User Theme"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remoe",
+				"Package Control: Remove Package"
+			],
+			[
+				"Insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 544.0,
+		"history":
+		[
+			"cargo fix --edition"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/media/colin/Black/dev/muskox/src/render/bxdfs/lobes/cookTorrance.rs",
+		"/media/colin/Black/dev/muskox/src/render/bxdfs/lobes/gtr2.rs",
+		"/media/colin/Black/dev/muskox/src/render/geometry/mod.rs",
+		"/media/colin/Black/dev/muskox/src/render/random.rs",
+		"/media/colin/Black/dev/muskox/src/render/lights/usd_light.rs",
+		"/media/colin/Black/dev/muskox/src/render/geometry/curve.rs",
+		"/media/colin/Black/dev/muskox/src/render/geometry/polymesh.rs",
+		"/media/colin/Black/dev/muskox/src/render/lights/mod.rs",
+		"/media/colin/Black/dev/muskox/src/render/bxdfs/usd_surface_old.rs",
+		"/media/colin/Black/dev/muskox/src/render/lights/usd_dome_light.rs",
+		"/media/colin/Black/dev/muskox/src/render/math.rs",
+		"/media/colin/Black/dev/muskox/src/render/bxdfs/mod.rs",
+		"/media/colin/Black/dev/muskox/src/render/bxdfs/usd_surface.rs",
+		"/media/colin/Black/dev/muskox/src/render/lights_x.rs",
+		"/media/colin/Black/dev/muskox/src/render/integrators.rs",
+		"/media/colin/Black/dev/muskox/src/render/bxdfs/primvarReaders.rs",
+		"/media/colin/Black/dev/muskox/src/render/lights_old.rs",
+		"/media/colin/Black/dev/muskox/sources.md",
+		"/media/colin/Black/dev/muskox/src/scene/structs.rs",
+		"/media/colin/Black/dev/muskox/src/scene/usdLoad.rs",
+		"/media/colin/Black/dev/muskox/src/render/bxdfs/lobes/ggx.rs",
+		"/media/colin/Black/dev/muskox/src/render/bxdfs/light.rs",
+		"/media/colin/Black/dev/muskox/src/render/geometry/lights.rs",
+		"/media/colin/Black/dev/muskox/src/render/bxdfs/lobes/lambert.rs",
+		"/home/colin/.config/sublime-text/Packages/User/Default.sublime-commands"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 54.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.diagnostics":
+	{
+		"height": 131.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Rust Enhanced/RustEnhanced.sublime-build",
+	"project": "README.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 320.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
