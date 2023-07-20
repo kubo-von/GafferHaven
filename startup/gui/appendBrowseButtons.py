@@ -2,22 +2,23 @@ import GafferHaven
 import Gaffer, GafferUI, os, imath
 import GafferCycles
 
-if "GAFFERCYCLES" in os.environ:
-	import GafferCycles
-	Gaffer.Metadata.registerValue(
-		GafferCycles.CyclesLight,
-		"layout:activator:lightIsBackground", lambda node : node["__shaderName"].getValue() == "background_light"
-	) 
-	Gaffer.Metadata.registerValue(
-		GafferCycles.CyclesLight, "layout:customWidget:browseHDRI:widgetType", "GafferHaven.gui.BrowseButton",
-	)
-	Gaffer.Metadata.registerValue(
-		GafferCycles.CyclesLight, "layout:customWidget:browseHDRI:section", "Settings",
-	)
-	Gaffer.Metadata.registerValue(
-		GafferCycles.CyclesLight,
-		"layout:customWidget:browseHDRI:visibilityActivator", "lightIsBackground"
-	)
+
+import GafferCycles
+Gaffer.Metadata.registerValue(
+	GafferCycles.CyclesShader,
+	"layout:activator:textureIsEnv", lambda node : node["name"].getValue() == "environment_texture"
+) 
+Gaffer.Metadata.registerValue(
+	GafferCycles.CyclesShader, "layout:customWidget:browseHDRI:widgetType", "GafferHaven.gui.BrowseButton",
+)
+Gaffer.Metadata.registerValue(
+	GafferCycles.CyclesShader, "layout:customWidget:browseHDRI:section", "Settings",
+)
+Gaffer.Metadata.registerValue(
+	GafferCycles.CyclesShader,
+	"layout:customWidget:browseHDRI:visibilityActivator", "textureIsEnv"
+)
+
 
 if "ARNOLD_ROOT" in os.environ:
 	import GafferArnold
@@ -35,3 +36,6 @@ if "ARNOLD_ROOT" in os.environ:
 		GafferArnold.ArnoldShader,
 		"layout:customWidget:browseHDRI:visibilityActivator", "shaderIsImage"
 	)
+
+
+

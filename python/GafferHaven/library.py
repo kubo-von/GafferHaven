@@ -79,9 +79,9 @@ class Hdri:
 		# Set map path and resolution on the light node in Gaffer
 		node_type = node.typeName()
 		# Cycles
-		if (node_type == "GafferCycles::CyclesLight"):
-			node['parameters']['image'].setValue( self.get_file_path(res).replace(self.lib.local_hdris_path,"${HAVENLIBRARY}/hdris/downloaded")) 
-			node['parameters']['map_resolution'].setValue(self.get_map_resolution(res))
+		if (node_type == "GafferCycles::CyclesShader"):
+			node['parameters']['filename'].setValue( self.get_file_path(res).replace(self.lib.local_hdris_path,"${HAVENLIBRARY}/hdris/downloaded")) 
+			#node['parameters']['map_resolution'].setValue(self.get_map_resolution(res))
 		# Arnold
 		elif (node_type == "GafferArnold::ArnoldShader"):
 			node['parameters']['filename'].setValue( self.get_file_path(res).replace(self.lib.local_hdris_path,"${HAVENLIBRARY}/hdris/downloaded")) 
